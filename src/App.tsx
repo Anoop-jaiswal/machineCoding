@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./Questions/Counter";
+import FetchData from "./Questions/FetchData";
 import Todo from "./Questions/Todo";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Counter />
       <Todo />
+      <FetchData />
     </>
   );
 }

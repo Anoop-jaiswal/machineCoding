@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./Questions/Counter";
 import Debounce from "./Questions/Debounce";
 import Drawer from "./Questions/Drawer";
+import Dropdown from "./Questions/Dropdown";
 import FetchData from "./Questions/FetchData";
 import Forms from "./Questions/Forms";
 import Pagination from "./Questions/Pagination";
@@ -20,7 +21,8 @@ function App() {
       {/* <Timer /> */}
       {/* <Drawer /> */}
       {/* <Pagination /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Dropdown />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import "./App.css";
+import BuggyComponent from "./Questions/BuggyComponent";
 import Counter from "./Questions/Counter";
 import Debounce from "./Questions/Debounce";
 import DraggableList from "./Questions/DragableList";
@@ -28,7 +29,8 @@ function App() {
       {/* <Dropdown /> */}
       {/* <DraggableList /> */}
       {/* <InfiniteScrollList /> */}
-      <Test />
+      {/* <Test /> */}
+      <BuggyComponent />
     </>
   );
 }

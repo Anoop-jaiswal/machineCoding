@@ -7,6 +7,7 @@ import Dropdown from "./Questions/Dropdown";
 import FetchData from "./Questions/FetchData";
 import Forms from "./Questions/Forms";
 import InfiniteScrollList from "./Questions/InfiniteScroll";
+import NestedComments from "./Questions/NestedComments";
 import Pagination from "./Questions/Pagination";
 import Test from "./Questions/Test";
 import ThemeTest from "./Questions/ThemeTest";
@@ -34,7 +35,8 @@ function App() {
       {/* <BuggyComponent /> */}
       {/* <ThemeTest /> */}
 
-      <PublicRoutes />
+      {/* <PublicRoutes /> */}
+      <NestedComments />
     </>
   );
 }

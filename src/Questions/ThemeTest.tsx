@@ -18,6 +18,7 @@ const ThemeTest = () => {
 
   return (
     <>
+      <h1>Context API test</h1>
       <div>
         <div>current theme = {theme}</div>
         <div>

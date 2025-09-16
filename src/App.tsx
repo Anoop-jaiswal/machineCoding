@@ -1,4 +1,3 @@
-import "./App.css";
 import BuggyComponent from "./Questions/BuggyComponent";
 import Counter from "./Questions/Counter";
 import Debounce from "./Questions/Debounce";
@@ -14,7 +13,7 @@ import ThemeTest from "./Questions/ThemeTest";
 import Throttle from "./Questions/Throttle";
 import Timer from "./Questions/Timer";
 import Todo from "./Questions/Todo";
-
+import PublicRoutes from "./Routes/publicRoutes";
 
 function App() {
   return (
@@ -33,7 +32,9 @@ function App() {
       {/* <InfiniteScrollList /> */}
       {/* <Test /> */}
       {/* <BuggyComponent /> */}
-      <ThemeTest />
+      {/* <ThemeTest /> */}
+
+      <PublicRoutes />
     </>
   );
 }

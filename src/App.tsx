@@ -1,3 +1,4 @@
+import Accordion from "./Questions/Accordion";
 import BuggyComponent from "./Questions/BuggyComponent";
 import Counter from "./Questions/Counter";
 import Debounce from "./Questions/Debounce";
@@ -36,7 +37,9 @@ function App() {
       {/* <ThemeTest /> */}
 
       {/* <PublicRoutes /> */}
-      <NestedComments />
+      {/* <NestedComments /> */}
+
+      <Accordion />
     </>
   );
 }

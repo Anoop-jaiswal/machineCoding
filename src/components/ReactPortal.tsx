@@ -41,3 +41,19 @@ const PortalModalTest = () => {
 };
 
 export default PortalModalTest;
+
+
+
+// A React Portal is a way to render children into a DOM node that exists 
+// outside the hierarchy of the parent component.
+
+// Normally, React components render inside their parent’s DOM tree.
+//  But with portals, you can render them somewhere else in the DOM while keeping 
+// them part of React’s virtual DOM tree (so state and context still work).
+
+// This is especially useful for UI elements like:
+
+// Modals / Dialogs
+// Tooltips
+// Dropdowns
+// Popovers

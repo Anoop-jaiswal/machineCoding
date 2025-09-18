@@ -17,6 +17,7 @@ import Throttle from "./Questions/Throttle";
 import Timer from "./Questions/Timer";
 import Todo from "./Questions/Todo";
 import PublicRoutes from "./Routes/publicRoutes";
+import WebWorkerExample from "./webWorker/WebWorkerExample";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <PublicRoutes /> */}
       {/* <NestedComments /> */}
       {/* <Accordion /> */}
-      <PortalModelTest />
+      {/* <PortalModelTest /> */}
+      <WebWorkerExample />
     </>
   );
 }

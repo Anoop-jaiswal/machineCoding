@@ -1,3 +1,4 @@
+import PortalModelTest from "./components/ReactPortal";
 import Accordion from "./Questions/Accordion";
 import BuggyComponent from "./Questions/BuggyComponent";
 import Counter from "./Questions/Counter";
@@ -35,11 +36,10 @@ function App() {
       {/* <Test /> */}
       {/* <BuggyComponent /> */}
       {/* <ThemeTest /> */}
-
       {/* <PublicRoutes /> */}
       {/* <NestedComments /> */}
-
-      <Accordion />
+      {/* <Accordion /> */}
+      <PortalModelTest />
     </>
   );
 }
